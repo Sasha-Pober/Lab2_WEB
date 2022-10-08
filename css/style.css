@@ -1,0 +1,142 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0px;
+    font-weight: 200;
+}
+body{
+    margin: 20px
+}
+a{
+    margin: auto 0px;
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+}
+.aside li{
+    list-style-type: none;
+    margin: 5px 0px 0px 5px;
+}
+nav{
+    font-size: larger;
+    background-color: #e0edf2;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px;
+    justify-content: space-evenly;
+    -webkit-box-shadow: 0px 0px 30px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 30px -7px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 30px -7px rgba(0,0,0,0.75);
+    border-radius: 64px 64px 64px 64px;
+    -moz-border-radius: 64px 64px 64px 64px;
+    -webkit-border-radius: 64px 64px 64px 64px;
+    border: 0px solid #000000;
+    
+}
+#logo
+{
+    border-radius: 64px 64px 64px 64px;
+    -moz-border-radius: 64px 64px 64px 64px;
+    -webkit-border-radius: 64px 64px 64px 64px;
+}
+aside, section
+{
+    -webkit-box-shadow: 0px 0px 30px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 30px -7px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 30px -7px rgba(0,0,0,0.75);
+    border-radius: 20px 20px 20px 20px;
+    -moz-border-radius: 20px 20px 20px 20px;
+    -webkit-border-radius: 20px 20px 20px 20px;
+    border: 0px solid #000000;
+    margin: 10px;
+}
+div{
+    padding: 20px;
+}
+h1, h2 {
+    text-align: center;
+    margin: 5px;
+}
+.about{
+    color: blue;
+}
+article
+{
+    display: flex;
+}
+aside
+{
+    font-size: larger;
+    text-align: center;
+    width: 30%;
+    height:auto;
+    -webkit-box-shadow: 0px 0px 30px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 30px -7px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 30px -7px rgba(0,0,0,0.75);
+    border-radius: 20px 20px 20px 20px;
+    -moz-border-radius: 20px 20px 20px 20px;
+    -webkit-border-radius: 20px 20px 20px 20px;
+    border: 0px solid #000000;
+    padding: auto 20px;
+    z-index: 1;
+}
+p
+{
+    padding: 20px;
+}
+.items
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.item
+{
+    text-align: center;
+    flex-wrap: wrap;
+    display: inline-block;
+    -webkit-box-shadow: 0px 0px 30px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 30px -7px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 30px -7px rgba(0,0,0,0.75);
+    border-radius: 20px 20px 20px 20px;
+    -moz-border-radius: 20px 20px 20px 20px;
+    -webkit-border-radius: 20px 20px 20px 20px;
+    border: 0px solid #000000;
+    padding: 20px;
+    margin: 10px;
+}
+.item a
+{
+    font-style: italic;
+}
+
+#form
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: max-content;
+    height: max-content;
+    padding: 5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+form input
+{
+    width: 20rem;
+    height: 2rem;
+    border-radius: 20px 20px 20px 20px;
+    -moz-border-radius: 20px 20px 20px 20px;
+    -webkit-border-radius: 20px 20px 20px 20px;
+    border: 3px solid #000000;
+    margin: 10px;
+}
+form
+{
+    text-align: center;
+}
+.shops td, th, tr
+{
+    border: 2px solid #000000;
+    padding: 5px;
+}
